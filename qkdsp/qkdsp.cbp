@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="qkdsp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="build/bin/Release/qkdsp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="build/obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="examples/example_qkdsp_ema.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/example_qkdsp_ma.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="include/qk_avg.h" />
+		<Unit filename="include/qk_dsp.h" />
+		<Unit filename="include/qk_fir.h" />
+		<Unit filename="include/qk_iir.h" />
+		<Unit filename="lib/qk_avg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/qk_fir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/qk_iir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1433206534 source:c:\users\mario\copy\vm_shared_cloud\qkthings\embedded\qkdsp\examples\example_qkdsp_ma.c
+	<stdio.h>
+	"qk_dsp.h"
+
+1433202642 c:\users\mario\copy\vm_shared_cloud\qkthings\embedded\qkdsp\include\qk_dsp.h
+	<stdint.h>
+	"qk_avg.h"
+	"qk_fir.h"
+	"qk_iir.h"
+
+1433204632 c:\users\mario\copy\vm_shared_cloud\qkthings\embedded\qkdsp\include\qk_avg.h
+
+1433202676 c:\users\mario\copy\vm_shared_cloud\qkthings\embedded\qkdsp\include\qk_fir.h
+
+1433202664 c:\users\mario\copy\vm_shared_cloud\qkthings\embedded\qkdsp\include\qk_iir.h
+
+1433202905 source:c:\users\mario\copy\vm_shared_cloud\qkthings\embedded\qkdsp\lib\qk_fir.c
+	"qk_dsp.h"
+	<string.h>
+
+1433202939 source:c:\users\mario\copy\vm_shared_cloud\qkthings\embedded\qkdsp\lib\qk_iir.c
+	"qk_dsp.h"
+	<string.h>
+
+1433202870 source:c:\users\mario\copy\vm_shared_cloud\qkthings\embedded\qkdsp\lib\qk_avg.c
+	"qk_dsp.h"
+	<string.h>
+
+1433376977 source:c:\users\mario\copy\vm_shared_cloud\qkthings\embedded\qkdsp\examples\example_qkdsp_ema.c
+	<stdio.h>
+	"qk_dsp.h"
+
+1433376977 source:c:\users\mribeiro\copy\vm_shared_cloud\qkthings\embedded\qkdsp\examples\example_qkdsp_ema.c
+	<stdio.h>
+	"qk_dsp.h"
+
+1433202643 c:\users\mribeiro\copy\vm_shared_cloud\qkthings\embedded\qkdsp\include\qk_dsp.h
+	<stdint.h>
+	"qk_avg.h"
+	"qk_fir.h"
+	"qk_iir.h"
+
+1433204575 c:\users\mribeiro\copy\vm_shared_cloud\qkthings\embedded\qkdsp\include\qk_avg.h
+
+1433202676 c:\users\mribeiro\copy\vm_shared_cloud\qkthings\embedded\qkdsp\include\qk_fir.h
+
+1433202664 c:\users\mribeiro\copy\vm_shared_cloud\qkthings\embedded\qkdsp\include\qk_iir.h
+
+1433202939 source:c:\users\mribeiro\copy\vm_shared_cloud\qkthings\embedded\qkdsp\lib\qk_iir.c
+	"qk_dsp.h"
+	<string.h>
+
